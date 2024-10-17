@@ -1,0 +1,88 @@
+/* Whole page effected by these settings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Page background color */
+body {
+    background-color: pink;
+}
+
+/* Spacing between image and paragraph*/
+p {
+    padding: 10px;
+}
+
+/* Header Styling */
+.header {
+    width: 100;
+    height: 50px;
+    display: block;
+    background-color: green;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 10px;
+    float: right;
+    display: inline;
+}
+
+/* My Website Title */
+.website {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Section */
+.comingsoon {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Contact Title  */
+.contact {
+    margin: 5px;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    display: block;
+}
+
+/* Form Section - Input Spacing */
+.label {
+    margin: 2px;
+}
+
+/* Form Border */
+.border {
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+    height: auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: brown; 
+    text-align: center;
+}
+
+/* Fixed Header Scroll */
+#myHeader {
+    position: sticky;
+    top: 0;
+    padding: 10x 16x;
+    color: green;
+}
+
+/* Footer Section */
+.footer {
+    width: 100;
+    height: 25px;
+    text-align: center;
+    background-color: green;
+}
